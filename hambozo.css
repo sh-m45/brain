@@ -1,0 +1,300 @@
+body{
+    /*height: 5000px ;*/
+    background-color: rgb(230, 228, 228);
+}
+.navbar{
+    padding-left: 50px ;
+    padding-right: 50px ;
+    height: 65px ;
+}
+.dropdown-menu{
+    background-color:rgba(17, 198, 253, 0.5);
+}
+.dropdown-item{
+    color: rgb(143, 38, 38);
+    font-weight: 500;
+    transition-duration: 0.3s;
+}
+.collapse ul li{
+    padding-left: 15px ;
+}
+.carousel-item{
+    height: 100vh ;
+    position: relative;
+    /*background-color: red;*/
+}
+.carousel-caption{
+    position: absolute;
+    top: 50% ;
+    color: black;
+}
+.carousel-caption h5{
+    font-size: 50px ;
+    padding-bottom: 10px ;
+    font-weight: 900;
+}
+.input{
+    margin-top: 30px;
+}
+.read-input{
+    width: 130px ;
+    height: 48px;
+    background-color: rgb(56, 192, 238);
+    color: white;
+    border-style: none;
+    margin-right: 10PX;
+    transition-duration: 0.5 ;
+}
+.read-input:hover{
+    background-color: rgb(56, 192, 238);
+    transform: translateY(2px);
+}
+.contant-input{
+    width: 110px ;
+    height: 48px;
+    color: white;
+    border-color: white;
+}
+.contant-input:hover{
+    background-color: white;
+    color: black;
+    border-style: none;
+}
+.about{
+    text-align: center;
+    height: 400px ;
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+    padding-bottom: 30px ;
+    padding-top: 70px ;
+    /*background-color: rosybrown;*/
+}
+.about-p{
+    font-size: 25px ;
+    margin-top: 20px ;
+    margin-bottom: 50px ;
+    font-weight: 200;
+    color: gray;
+}
+.input-about{
+    background-color: rgb(230, 228, 228);
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    color: black;
+    width: 120px ;
+    height: 45px;
+}
+.input-about:hover{
+    background-color:rgb(41, 3, 3);
+    color: white;
+    border-style: none;
+}
+.animation::after{
+    content: " ";
+    animation: typing 8s infinite alternate;
+    color: rgb(70, 201, 245);
+    font-weight: 500;
+}
+@keyframes typing{
+    8%{
+        content: "B";
+    }
+    16%{
+        content: "Br";
+    }
+    24%{
+        content: "Bra";
+    }
+    32%{
+        content: "Brai";
+    }
+    40%{
+        content: "Brain";
+    }
+    48%{
+        content: "Brain ";
+    }
+    56%{
+        content: "Brain t";
+    }
+    64%{
+        content: "Brain tu";
+    }
+    72%{
+        content: "Brain tum";
+    }
+    80%{
+        content: "Brain tumo";
+    }
+    90%{
+        content: "Brain tumor";
+    }
+    100%{
+        content: "Brain tumors";
+    }
+}
+.list{
+    list-style-type: none ;
+    text-align: left;
+    padding-top: 50px;
+}
+.list li{
+    padding-top: 15px ;
+    color:rgb(235, 229, 229);
+}
+.greater{
+    font-size: 50px;
+    color: rgb(41, 3, 3);
+}
+.section-4{
+    padding-top: 100px;
+    background-color: #848282 ;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.services-p{
+    padding-top: 20px ;
+    color: rgb(235, 229, 229);
+    font-weight: 500;
+    font-size: 15px;
+}
+.what{
+    text-align: left;
+    padding-left: 15px ;
+    padding-top: 50px;
+    padding-right: 90px;
+}
+.parentChar{
+    position: relative;
+}
+.childChar{
+    position: absolute;
+    top: 3%;
+    left: 1%;
+}
+.service-h1{
+    font-size: 70px ;
+    color: rgba(31, 3, 3, 0.5);
+   /* color: rgba(224, 220, 220, 0.2) ;*/
+}
+.service-h3{
+    font-size: 40px ;
+    color: rgb(235, 229, 229);
+    padding-bottom: 15px;
+}
+.services-p1{
+    color: rgb(235, 229, 229);
+    font-weight: 400;
+    font-size: 18px;
+}
+.team{
+    width: 100%;
+    
+}
+.team-h{
+    width: 100%;
+    height: 383px;
+    
+}
+.group{
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 100px ;
+}
+.group-h2{
+    font-size: 45px ;
+    font-weight: 700;
+}
+.group-p{
+    color: gray;
+    font-size: 20px ;
+    padding-bottom: 40px;
+}
+.min-parent{
+    position: relative;
+    overflow: hidden;
+}
+.layer12{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(17, 198, 253, 0.5);
+    transition-duration: 1s ;
+
+}
+.min-parent:hover .layer12{
+    top: 0 ;
+}
+.icon-group1{
+    text-align: left;
+    padding-left: 20px ;
+    padding-top: 20px ;
+}
+.faceb{
+    padding-left: 10px ;
+    color: white;
+    
+}
+.contant-group{
+    text-align: left;
+    padding-top: 250px;
+    padding-left: 20px ;
+    color: white;
+}
+footer{
+    padding-top: 20px ;
+}
+.sh{
+    width: 100% ;
+    height: 64px ;
+}
+.form-h2{
+    font-size: 40px ;
+    font-weight: 700;
+}
+.form-p{
+    font-size: 20px ;
+    font-weight: 400;
+    color: gray;
+}
+.shr{
+    width: 150px ;
+    height: 50px ;
+}
+.s99{
+    padding-top: 100px ;
+}
+.inne{
+    padding: 50px 0;
+}
+.pad4{
+    padding-bottom: 70px;
+    padding-left: 40px ;
+    padding-right: 40px ;
+}
+.actt{
+    width: 200px ;
+    height: 150px ;
+    margin: auto;
+    padding-top: 100px ;
+    /*background-color: green;*/
+}
+.act{
+    border-radius: 50%;
+    height: 100px ;
+    width: 100px;
+}
+.carousel-indicators .act {
+    height: 15px ;
+    width: 15px ;
+    margin-left: 10px ;
+    background-color: gray;
+}
+.iimg{
+    width: 150px ;
+    height: 150px ;
+    margin-bottom: 30px ;
+}
